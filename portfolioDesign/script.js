@@ -43,6 +43,6 @@ function changeslide(direction){
 				slideindex = slidelength - 1
 			}
 	}
-	slideright.style.transform = `translateY(-${slideindex * sliderheight}px)`
-	sliderleft.style.transform = `translateY(${slideindex * sliderheight}px)`
+	slideright.style.transform = `translateY(-${slideindex * sliderheight}%)`
+	sliderleft.style.transform = `translateY(${slideindex * sliderheight}%)`
 	}
